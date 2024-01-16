@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+
+
 lines=$(ls -lh $1 | wc -l)
 
 if [ $# -ne 1 ]
